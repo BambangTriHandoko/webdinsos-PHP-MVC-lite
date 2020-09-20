@@ -84,8 +84,8 @@ if(isset($_POST['submit'])){
 					<form action="" role="search" method="post" accept-charset="utf-8">                                                                                 
 					<input type="hidden" name="bb580c19bd647b265232ce1a9de71edd" value="e87db609b0c6699706443ad84a805e38">
 		<ul class="nav-menu nav navbar-nav">
-							<li><a href="<?=BASEURLS;?>/home">Home</a></li>
-							<li><a href="<?=BASEURLS;?>/profile">Profile</a></li>
+							<li class="cat-2"><a href="<?=BASEURLS;?>/home">Home</a></li>
+							<li class="cat-3"><a href="<?=BASEURLS;?>/profile">Profile</a></li>
 							<li class="cat-1"><a href="<?=BASEURLS;?>/layanan">Layanan</a></li>
 							<li class="cat-2"><a href="<?=BASEURLS;?>/galery">Galery</a></li>
 							<li class="cat-4"><a href="<?=BASEURLS;?>/visualisasi">Visualisasi</a></li>
@@ -94,7 +94,7 @@ if(isset($_POST['submit'])){
 						<form action="<?=BASEURLS;?>" method="post">
 						<div class="input-group">
 						<br>
-						<input type="text"  style=" width:150px;" placeholder="cari" name="cari" autocomplete="off">
+						<input type="text"  style=" width:150px;" placeholder="ketik pencarian" name="cari" autocomplete="off">
 						<button class="btn btn-second" name="submit" type="submit" >Cari</button></form>				</div>
 							</div>
 		</div>
