@@ -75,7 +75,7 @@ if(isset($_POST['submit'])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="<?=BASEURLS;?>/home" class="logo"><img src="<?= BASEURL;?>/LOGO.png" alt="" ></a>		
+				<a href="<?=BASEURLS;?>/home" class="logo"><img src="<?= BASEURL;?>/LOGO.png" alt="" height="80" width="200"  ></a>		
 				</div>
 
 			<div class="navbar-collapse collapse in" id="top-menu" aria-expanded="true" style="">
@@ -90,8 +90,8 @@ if(isset($_POST['submit'])){
 							<li><a href="<?=BASEURLS;?>/profile">Profile</a></li>
 							<li class="cat-1"><a href="<?=BASEURLS;?>/layanan">Layanan</a></li>
 							<li class="cat-2"><a href="<?=BASEURLS;?>/galery">Galery</a></li>
-							<li class="cat-3"><a href="http://pkh.dinsos.tasikmalayakota.go.id">Mitra</a></li>
 							<li class="cat-4"><a href="<?=BASEURLS;?>/visualisasi">Visualisasi</a></li>
+							<li class="cat-3"><a href="<?=BASEURLS;?>/pengaduan">Pengaduan online</a></li>
 						</ul>
 						<form action="<?=BASEURLS;?>" method="post">
 						<div class="input-group">

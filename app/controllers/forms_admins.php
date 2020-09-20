@@ -30,6 +30,13 @@ class forms_admins extends Controller{
         $this->view('admin/visual/index',$data);
         $this->view('admin/footer');
     }
+    public function pengaduan(){
+        $data['isi'] = $this->model('pengaduan')->getAllpengaduan();
+        $this->view('admin/header');
+        $this->view('admin/sidebar');
+        $this->view('admin/pengaduan/index',$data);
+        $this->view('admin/footer');
+    }
     public function createberita(){
         $this->view('admin/header');
         $this->view('admin/sidebar');
@@ -102,6 +109,11 @@ class forms_admins extends Controller{
         $this->view('admin/visual/delete',$data);
         
     }
+    public function deletepeng($id){
+        $data = $this->model('pengaduan')->getdataid($id);
+        $this->view('admin/pengaduan/delete',$data);
+        
+    }
     public function tambah(){
 
         $this->view('admin/berita/tambah');       
@@ -133,5 +145,9 @@ class forms_admins extends Controller{
     public function ubahvis($id){
         $data = $this->model('visual')->getdataid($id);
         $this->view('admin/visual/ubah',$data);   
+    }
+    public function cetak($id){
+        $data = $this->model('pengaduan')->getdataid($id);
+        $this->view('admin/pengaduan/cetak',$data);   
     }
 }

@@ -35,7 +35,7 @@
       <li class="cat-3"><a class="nav-item nav-link" href="/webdinsos/layanan">  <b> Layanan</b></a></li>      
       <li class="cat-4">   <a class="nav-item nav-link" href="/webdinsos/galery">  <b> galery</b></a></li>      
       <li class="cat-5">      <a class="nav-item nav-link" href="/webdinsos/visualisasi">  <b> Visualisasi</b></a></li>      
-      <li class="cat-6">      <a class="nav-item nav-link" href="http://pkh.dinsos.tasikmalayakota.go.id"><b>Mitra</b></a></li>      
+      <li class="cat-6">      <a class="nav-item nav-link" href="<?=BASEURLS;?>/pengaduan"><b>Pengaduan online</b></a></li>      
        </div>
   </div>
 </div>
